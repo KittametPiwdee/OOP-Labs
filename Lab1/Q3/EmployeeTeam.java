@@ -8,18 +8,15 @@ public class EmployeeTeam {
     }
 
     public void printEmployeeDetails(){
-        System.out.println(employee.getFirstName());
-        System.out.println(employee.getLastName());
-        System.out.println(employee.getMonthlySalary());
+        System.out.println("Employee Name : "+employee.getFirstName()+" "+employee.getLastName());
+        System.out.println("Employee Salary : "+employee.getMonthlySalary()+" Baht");
     }
 
     public void printAllEmployeesDetails(){
-        System.out.println(boss.getFirstName());
-        System.out.println(boss.getLastName());
-        System.out.println(boss.getMonthlySalary());
-        System.out.println(employee.getFirstName());
-        System.out.println(employee.getLastName());
-        System.out.println(employee.getMonthlySalary());
+        System.out.println("Boss Name : "+boss.getFirstName()+" "+boss.getLastName());
+        System.out.println("Boss Salary : "+boss.getMonthlySalary()+" Baht");
+        System.out.println("Employee Name : "+employee.getFirstName()+" "+employee.getLastName());
+        System.out.println("Employee Salary : "+employee.getMonthlySalary()+" Baht");
     }
 
     public void updateSalaryOfEmployee(String firstname, double newSalary){

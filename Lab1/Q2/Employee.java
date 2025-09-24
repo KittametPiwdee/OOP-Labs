@@ -3,11 +3,11 @@ public class Employee {
     private String lastName;
     private double monthlySalary;
 
-    public Employee(String fName, String lName, double Salary) {
+    public Employee(String fName, String lName, double salary) {
         this.firstName = fName;
         this.lastName = lName;
-        if (Salary > 0) {
-            this.monthlySalary = Salary;
+        if (salary > 0) {
+            this.monthlySalary = salary;
         }else{
             this.monthlySalary = 0;
         }
@@ -27,9 +27,9 @@ public class Employee {
         this.lastName = lName;
     }
 
-    public void setMonthlySalary(double Salary) {
-        if (Salary > 0) {
-            this.monthlySalary = Salary;
+    public void setMonthlySalary(double salary) {
+        if (salary > 0) {
+            this.monthlySalary = salary;
         }
     }
 
