@@ -3,8 +3,8 @@ public class Employee {
     private String lastName;
     private double monthlySalary;
 
-    public Employee(String Fname, String lName, double Salary) {
-        this.firstName = Fname;
+    public Employee(String fName, String lName, double Salary) {
+        this.firstName = fName;
         this.lastName = lName;
         if (Salary > 0) {
             this.monthlySalary = Salary;
@@ -13,8 +13,8 @@ public class Employee {
         }
     }
 
-    public Employee(String Fname, String lName) {
-        this.firstName = Fname;
+    public Employee(String fName, String lName) {
+        this.firstName = fName;
         this.lastName = lName;
         this.monthlySalary = 0;
     }
