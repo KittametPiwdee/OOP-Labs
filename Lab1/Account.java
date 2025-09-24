@@ -24,7 +24,7 @@ public class Account {
 
     public void deposit(double depositAmount) {
         if(depositAmount>0){
-            this.balance = depositAmount;
+            this.balance += depositAmount;
         }
     }
 }
