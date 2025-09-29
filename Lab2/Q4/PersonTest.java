@@ -11,5 +11,8 @@ public class PersonTest {
         Person p = new Person();
         p.setFirstName("John");
         System.out.println(p.getFirstName()); // it should print “John”
+        Child c = new Child(13, 130, 30);
+        c.setFirstName("Sorn");
+        System.out.println(c.getFirstName()); // it should print “Sorn”
     }
 }
